@@ -20,7 +20,7 @@ function clickEvent(e) {
   }
   // Removes userFinalScore from localStorage. It is no longer needed.
   localStorage.removeItem("userFinalScore");
-  None of these work:
+  //None of these work:
   //document.getElementById("initials").options.length = 0;
   //document.location.assign("highscores.html");
   //document.location='highscores.html';
