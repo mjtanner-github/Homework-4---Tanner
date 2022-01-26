@@ -14,6 +14,6 @@ function clickEvent(e) {
     localStorage.setItem("userHighScore" , userInitials.concat(": ").concat(userFinalScore));
   }
   localStorage.removeItem("userFinalScore");
-  location.href = 'highscores.html';
-  //window.open("./highscores.html");
+  //location.href = 'highscores.html';
+  window.open("./highscores.html");
 }
