@@ -7,7 +7,8 @@ window.onload = function(){
   
 function goBackClickEvent(e){
   alert("go back");
-  window.open("../../index.html");
+  //window.open("../../index.html");
+  location.href = '../../index.html';
 }
 
 function deleteClickEvent(e) {
