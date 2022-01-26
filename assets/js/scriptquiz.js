@@ -57,7 +57,7 @@ function clickEvent(e) {
     else {
       localStorage.setItem("userFinalScore", timeLeft);
       clearInterval(timerInterval);
-      location.href = 'highscoreset.html';
+      document.location.href = 'highscoreset.html';
     }  
 }
 
