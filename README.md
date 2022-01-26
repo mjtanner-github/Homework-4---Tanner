@@ -5,7 +5,7 @@
 ##### 1. README.md: This file.
 ##### 2. index.html: Default start page, welcoms the user and presents a 'Start' button.
 ##### 3. quiz.html: Governs the layout of the quiz game. 
-##### 4.scriptquiz.js: Governs the content and operation of the quiz game.                  |
+##### 4. scriptquiz.js: Governs the content and operation of the quiz game.                  |
 ##### 5. highscoreset.html: Layout for ths user to perform score related functions 
 ##### 6. scripthighscoreset.js: Governs the operation of score related functions.
 ##### 7. highscores.html: Layout for "Go Back" and "Delete High Scores" selection.
@@ -23,4 +23,12 @@
 ###### (3) Determine if the response it the correct on.
 ###### (4) If the response is wrong, decrement the clock and repeat. 
 #### C. Post-Game Implementation
-##### 1. Remaining time on the clock 
+##### 1. Remaining time on the clock saved to user's score in all cases:
+###### a. The user completes all questions.
+###### b. The clock expires as a function of real time.
+###### c. The clock expires on penalties.
+##### 2. If the user's final score is greater than any previously records, make a new record.
+###### a. Prompt the user for initials.
+###### b. Query localStorage for an existing with fewer points.
+###### c. Record the user-highscore pair in localStorage. 
+##### 3. Present highscore data with "delete highscore" and "go back" options.
