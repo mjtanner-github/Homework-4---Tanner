@@ -14,6 +14,7 @@
 ## Top Down Design
 ### Program Implementation According to Specifications
 #### A. Landing, explanatory verbage and start button
+!["File Not Available"](./images/1.png "index.html")
 #### B. Game Operation
 ##### 1. Implement Clock
 ##### 2. Cycle through all quiz questions.
@@ -22,6 +23,7 @@
 ###### (2) Get the user's response.
 ###### (3) Determine if the response it the correct on.
 ###### (4) If the response is wrong, decrement the clock and repeat. 
+!["File Not Available"](./images/2.png "quiz.html")
 #### C. Post-Game Implementation
 ##### 1. Remaining time on the clock saved to user's score in all cases:
 ###### a. The user completes all questions.
@@ -29,6 +31,8 @@
 ###### c. The clock expires on penalties.
 ##### 2. If the user's final score is greater than any previously records, make a new record.
 ###### a. Prompt the user for initials.
+!["File Not Available"](./images/3.png "highscoreset.html")
 ###### b. Query localStorage for an existing with fewer points.
 ###### c. Record the user-highscore pair in localStorage. 
 ##### 3. Present highscore data with "delete highscore" and "go back" options.
+!["File Not Available"](./images/4.png "highscores.html")
