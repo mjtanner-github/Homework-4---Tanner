@@ -7,15 +7,21 @@ function runClock() {
     timeLeft--;
     document.getElementById("timer").innerHTML = timeLeft;
     if (timeLeft <= 0) {
+      timeLeft = 0;
       clearInterval(timerInterval);
+      localStorage.setItem("userFinalScore", timeLeft);
+      document.location.href = 'highscoreset.html';
     }
   }, 1000);
 }
 
 function decClock() {
   timeLeft = timeLeft - 10;
-  if(timeLeft < 0){
+  if(timeLeft <= 0){
     timeLeft = 0;
+    clearInterval(timerInterval);
+    localStorage.setItem("userFinalScore", timeLeft);
+    document.location.href = 'highscoreset.html';
   }
 }
 
@@ -50,10 +56,13 @@ function clickEvent(e) {
   
     if(response === "Wrong!"){
       decClock();
+      localStorage.setItem("userFinalScore", timeLeft);
       query(iterator);
     }
-    else if(response === "Correct!" && iterator < 4)
+    else if(response === "Correct!" && iterator < 4){
+      localStorage.setItem("userFinalScore", timeLeft);
       query(++iterator);
+    }
     else {
       localStorage.setItem("userFinalScore", timeLeft);
       clearInterval(timerInterval);
