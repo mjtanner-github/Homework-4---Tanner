@@ -11,3 +11,16 @@
 ##### 7. highscores.html: Layout for "Go Back" and "Delete High Scores" selection.
 ##### 8. scripthighscores.js: Layout for "Go Back" and "Delete High Scores" selection.
 ##### 9. style.css: Controls as aspects of look and feel. 
+## Top Down Design
+### Program Implementation According to Specifications
+#### A. Landing, explanatory verbage and start button
+#### B. Game Operation
+##### 1. Implement Clock
+##### 2. Cycle through all quiz questions.
+###### a. Implement individual question.
+###### (1) Feed the text to the appropriate html containers.
+###### (2) Get the user's response.
+###### (3) Determine if the response it the correct on.
+###### (4) If the response is wrong, decrement the clock and repeat. 
+#### C. Post-Game Implementation
+##### 1. Remaining time on the clock 
