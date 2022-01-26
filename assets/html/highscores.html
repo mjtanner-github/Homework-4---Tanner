@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Highscores</title>
+  </head>
+
+  <body>
+    <div class="highscore-pane">
+      <h2>Highscores</h2>
+        <div class = "highscore-buttons">
+          <button id="go-back" class="quiz-button button-alterable button" onclick="goBackClickEvent(event)">Go Back</button>
+          <button id="delete" class="quiz-button button-alterable button" onclick="deleteClickEvent(event)">Delete Highscores</button>  
+        </div>
+        <p id="userScoreInfo"></p>
+    </div>
+    <script src="../js/scripthighscores.js"></script>
+  </body>
