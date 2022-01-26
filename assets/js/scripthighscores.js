@@ -1,8 +1,5 @@
 window.onload = function(){
-  alert("before write");
-  
   document.getElementById("userScoreInfo").innerHTML = localStorage.getItem("userHighScore");
-
 }
   
 function goBackClickEvent(e){
