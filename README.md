@@ -29,7 +29,7 @@
 ###### a. The user completes all questions.
 ###### b. The clock expires as a function of real time.
 ###### c. The clock expires on penalties.
-##### 2. If the user's final score is greater than any previously records, make a new record.
+##### 2. If the user's final score is greater than any previously records, make a new record. (Not implemented)
 ###### a. Prompt the user for initials.
 !["File Not Available"](./assets/images/3.png "highscoreset.html")
 ###### b. Query localStorage for an existing with fewer points.
