@@ -39,4 +39,5 @@
 ## What else needs to be done?
 ##### 1. Fully develope the Highscore database.
 ##### 2. Make the style look and feel consistent thoughout.
-##### 3. Fully resolve the "document.location=" of "document.location.apply()" vs. "window.open()" and "window.close()" conundrum.  
+##### 3. Fully resolve the "document.location=" of "document.location.apply()" vs. "window.open()" and "window.close()" conundrum.
+##### 4. Implement methods for importing series of questions and correct responses. 
