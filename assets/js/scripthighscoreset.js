@@ -26,6 +26,6 @@ function clickEvent(e) {
   //document.location='highscores.html';
   //document.location.assign("highscores.html");
   // These 2 line work 
-  window.open("highscores.html"); // Works, but opens an new browser window.
   window.close("highscoreset.html");
+  window.open("highscores.html"); // Works, but opens an new browser window.
 }
